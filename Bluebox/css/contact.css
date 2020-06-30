@@ -1,0 +1,102 @@
+.upper {
+  width: 100%;
+  height: 100px;
+  background-color: #e2e7ed;
+}
+.upper h4 {
+  margin-left: 220px;
+  padding-top: 20px;
+  font-size: 40px;
+  color: #676767;
+}
+.contact_us {
+  width: 1000px;
+
+  margin-left: 230px;
+  height: 760px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_left {
+  width: 455px;
+  height: 760px;
+
+  padding-top: 50px;
+}
+.contact_right {
+  width: 455px;
+  height: 760px;
+
+  padding-top: 130px;
+}
+.contact_right h4 {
+  padding-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input {
+  display: block;
+  width: 85%;
+
+  height: 40px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #d9d9d9;
+}
+textarea {
+  display: block;
+  width: 85%;
+  height: 160px;
+  margin-left: 15px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #d9d9d9;
+  resize: none;
+}
+button {
+  width: 30%;
+  margin-top: 25px !important;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #00aeff;
+  color: white;
+  border-radius: 5px;
+}
+.footer {
+  width: 100%;
+  height: 210px;
+  background-color: #31333e;
+  display: flex;
+}
+.footerLeft {
+  width: 60%;
+
+  padding-left: 200px;
+  padding-top: 30px;
+}
+.footerRight {
+  width: 40%;
+
+  padding-top: 30px;
+  padding-left: 100px;
+}
+.footerLeft ul {
+  margin-bottom: 0px !important;
+}
+.footerLeft ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 15px;
+  color: white;
+}
+.footerLeft p {
+  padding-left: 40px;
+  color: white;
+}
